@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+    <link rel="stylesheet" href="assets/css/style2.css">
+</head>
+<body>
+    <section class="registration-form">
+        <h2 class="nickname">{NICK}</h2>
+        <form class="form-container">
+          <div class="form-field">
+            <label for="name" class="field-label">Nama</label>
+            <input type="text" id="name" class="field-input" aria-label="Nama">
+          </div>
+          <div class="form-field">
+            <label for="phone" class="field-label">Nomor HP</label>
+            <input type="tel" id="phone" class="field-input" aria-label="Nomor HP">
+          </div>
+          <div class="form-field">
+            <label for="email" class="field-label">Email</label>
+            <input type="email" id="email" class="field-input" aria-label="Email">
+          </div>
+          <div class="date-field">
+            <label for="date" class="field-label">Tanggal</label>
+            <div class="date-input">
+              <input type="date" id="date" aria-label="Tanggal">
+              <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/8e3aaf47f4cda4427d33f73efa0d753e2e73cb283318002c3bd1d609faca7787?placeholderIfAbsent=true&apiKey=c4e4ce5170a7404fac6bdd6b94daba06" class="calendar-icon" alt="">
+            </div>
+          </div>
+          <fieldset class="gender-field">
+            <legend class="field-label">Jenis Kelamin</legend>
+            <div class="radio-group">
+              <div class="radio-option">
+                <input type="radio" id="male" name="gender" class="radio-button" aria-label="Laki-laki">
+                <label for="male" class="radio-label">LAKI</label>
+              </div>
+              <div class="radio-option">
+                <input type="radio" id="female" name="gender" class="radio-button" aria-label="Perempuan">
+                <label for="female" class="radio-label">BINI</label>
+              </div>
+            </div>
+          </fieldset>
+          <div class="textarea-field">
+            <label for="address" class="field-label">Alamat</label>
+            <textarea id="address" class="textarea-input" aria-label="Alamat"></textarea>
+          </div>
+          <div class="textarea-field">
+            <label for="purpose" class="field-label">Tujuan</label>
+            <textarea id="purpose" class="textarea-input" aria-label="Tujuan"></textarea>
+          </div>
+          <button type="submit" class="submit-button">KONFIRMASI</button>
+        </form>
+      </section>
+</body>
+</html>
